@@ -1,4 +1,4 @@
-# Karabiner-Elements-Advanced-Configurations
+# Karabiner-Elements-Advanced-Settings
 
 このリポジトリにはKarabiner-ElementsのJSONファイルが４つ含まれています。現在私が設定しているファイルと３つのテンプレートファイルになります。以下は各ファイルの説明です。
 
