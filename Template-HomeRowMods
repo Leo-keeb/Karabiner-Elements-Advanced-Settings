@@ -1,0 +1,250 @@
+{
+    "title": "Home Row Mods Template by Leo",
+    "rules": [
+        {
+            "description": "a: shift, s: option, d: control, f: shift, by Leo_keeb",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "a",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "a"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "a"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "left_command"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "s",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "s"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "s"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "left_option"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "d",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "d"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "d"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "left_control"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "f"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "f"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "left_shift"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "j",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "j"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "j"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "right_shift"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "k",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "k"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "k"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "right_control"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "l",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "l"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "l"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "right_option"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "hyphen",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 150,
+                        "basic.to_if_held_down_threshold_milliseconds": 150
+                    },
+                    "to_if_alone": {
+                        "halt": true,
+                        "key_code": "hyphen"
+                    },
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "key_code": "hyphen"
+                            }
+                        ]
+                    },
+                    "to_if_held_down": {
+                        "halt": true,
+                        "key_code": "right_command"
+                    }
+                }
+            ]
+        }
+    ]
+}
