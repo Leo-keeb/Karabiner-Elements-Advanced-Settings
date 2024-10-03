@@ -9,10 +9,10 @@
                     "from": {
                         "simultaneous": [
                             {
-                                "key_code": "d"
+                                "key_code": "s"
                             },
                             {
-                                "key_code": "f"
+                                "key_code": "d"
                             }
                         ],
                         "modifiers": {
@@ -32,10 +32,10 @@
                     "from": {
                         "simultaneous": [
                             {
-                                "key_code": "j"
+                                "key_code": "k"
                             },
                             {
-                                "key_code": "k"
+                                "key_code": "l"
                             }
                         ],
                         "modifiers": {
